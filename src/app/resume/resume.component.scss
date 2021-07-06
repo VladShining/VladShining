@@ -1,0 +1,13 @@
+@import "../style/color.scss";
+
+.container {
+  background-color: $dark-background;
+  height: 100vh;
+  width: 50vw;
+}
+@media screen and (max-width: 768px) {
+  .container {
+    width: 100vw;
+    height: 50vh;
+  }
+}
