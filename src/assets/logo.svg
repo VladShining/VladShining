@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="469" height="469" viewBox="0 0 469 469">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+      }
+
+      .cls-2, .cls-3 {
+        fill: none;
+      }
+
+      .cls-2 {
+        stroke: #fff;
+      }
+    </style>
+  </defs>
+  <g id="Groupe_34" data-name="Groupe 34" transform="translate(-3346 -108)">
+    <g id="Groupe_33" data-name="Groupe 33" transform="translate(3346 159.432)">
+      <g id="Groupe_32" data-name="Groupe 32" transform="translate(460.489 395.137) rotate(180)">
+        <path id="Tracé_1" data-name="Tracé 1" class="cls-1" d="M151.706,0,303.412,88.249H0Z" transform="matrix(0.5, -0.866, 0.866, 0.5, 0, 262.763)"/>
+        <path id="Tracé_11" data-name="Tracé 11" class="cls-1" d="M151.706,0,303.412,88.249H0Z" transform="translate(308.783 0) rotate(60)"/>
+        <path id="Polygone_4" data-name="Polygone 4" class="cls-1" d="M153.818,0,307.636,88.249H0Z" transform="translate(384.064 395.137) rotate(180)"/>
+      </g>
+      <line id="Ligne_3" data-name="Ligne 3" class="cls-2" x2="153.742" y2="87.264" transform="translate(76.475 88.215)"/>
+      <line id="Ligne_4" data-name="Ligne 4" class="cls-2" x1="153.625" y2="87.264" transform="translate(230.217 88.215)"/>
+      <line id="Ligne_5" data-name="Ligne 5" class="cls-2" y1="176.925" x2="0.058" transform="translate(230.159 175.48)"/>
+    </g>
+    <rect id="Rectangle_40" data-name="Rectangle 40" class="cls-3" width="469" height="469" transform="translate(3346 108)"/>
+  </g>
+</svg>
