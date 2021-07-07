@@ -1,13 +1,23 @@
 @import "../style/color.scss";
 
 .container {
-  background-color: $dark-background;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: $light-background;
   height: 100vh;
-  width: 50vw;
+  width: calc(100vw - 500px);
+  padding: 1em;
+}
+@media screen and (max-width: 1000px) {
+  .container {
+    width: 50vw;
+  }
 }
 @media screen and (max-width: 768px) {
   .container {
     width: 100vw;
-    height: 50vh;
+    height: 70vh;
   }
 }
