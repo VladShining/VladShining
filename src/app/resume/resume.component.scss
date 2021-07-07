@@ -9,6 +9,10 @@
   height: 100vh;
   width: calc(100vw - 500px);
   padding: 1em;
+  box-shadow: inset 0.5em 0em 1em 0.1em $dark;
+  // background-image: url("../../assets/Fichier\ 1.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 @media screen and (max-width: 1000px) {
   .container {
@@ -19,5 +23,6 @@
   .container {
     width: 100vw;
     height: 70vh;
+    box-shadow: inset 0em 0.5em 1em 0.1em $dark;
   }
 }

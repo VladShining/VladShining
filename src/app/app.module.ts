@@ -16,6 +16,7 @@ import { EducationComponent } from './education/education.component';
 import { SkillsComponent } from './skills/skills.component';
 import { WorkComponent } from './work/work.component';
 import { HobbiesComponent } from './hobbies/hobbies.component';
+import { DataService } from './service/data.service';
 
 @NgModule({
   declarations: [
@@ -41,7 +42,7 @@ import { HobbiesComponent } from './hobbies/hobbies.component';
       registrationStrategy: 'registerWhenStable:30000',
     }),
   ],
-  providers: [],
+  providers: [DataService],
   bootstrap: [AppComponent],
 })
 export class AppModule {}
