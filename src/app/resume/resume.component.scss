@@ -5,7 +5,7 @@
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
-  background-color: $light-background;
+  background-color: $light-color;
   height: 100vh;
   width: calc(100vw - 500px);
   padding: 1em;
@@ -22,7 +22,7 @@
 @media screen and (max-width: 768px) {
   .container {
     width: 100vw;
-    height: 70vh;
+    height: 95vh;
     box-shadow: inset 0em 0.5em 1em 0.1em $dark;
   }
 }

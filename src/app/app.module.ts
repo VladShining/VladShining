@@ -17,6 +17,7 @@ import { SkillsComponent } from './skills/skills.component';
 import { WorkComponent } from './work/work.component';
 import { HobbiesComponent } from './hobbies/hobbies.component';
 import { DataService } from './service/data.service';
+import { ForoforComponent } from './forofor/forofor.component';
 
 @NgModule({
   declarations: [
@@ -31,6 +32,7 @@ import { DataService } from './service/data.service';
     SkillsComponent,
     WorkComponent,
     HobbiesComponent,
+    ForoforComponent,
   ],
   imports: [
     BrowserModule,

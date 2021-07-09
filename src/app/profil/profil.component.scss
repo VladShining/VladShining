@@ -4,8 +4,19 @@
   text-align-last: center;
   text-align: -webkit-center;
 }
-img {
+.picture {
+  box-shadow: 0.2em 0.2em 7px 0.1em $dark-color;
+  border-radius: 0.5em;
+  margin: 0.5em 0;
   height: 150px;
+  width: 150px;
+  background-image: url("../../assets/logo.png");
+  background-size: 150px 150px;
+  img {
+    // width: 150px;
+    height: 150px;
+    border: none;
+  }
 }
 p {
   text-align: center;
