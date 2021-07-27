@@ -1,17 +1,14 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { EducationComponent } from './education/education.component';
 import { ForoforComponent } from './forofor/forofor.component';
-import { HobbiesComponent } from './hobbies/hobbies.component';
-import { SkillsComponent } from './skills/skills.component';
-import { WorkComponent } from './work/work.component';
 
 const routes: Routes = [
-  { path: '49', component: HobbiesComponent },
-  { path: 'education', component: EducationComponent },
-  { path: 'skills', component: SkillsComponent },
-  { path: 'work', component: WorkComponent },
-  { path: '', redirectTo: '49', pathMatch: 'full' },
+  {
+    path: 'root',
+    loadChildren: () => import('./root/root.module').then((m) => m.RootModule),
+    // canActivate: [AuthGuard],
+  },
+  { path: '', redirectTo: 'root', pathMatch: 'full' },
   { path: '**', component: ForoforComponent },
 ];
 

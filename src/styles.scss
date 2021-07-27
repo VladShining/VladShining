@@ -1,7 +1,19 @@
 @import "./app/style/index.scss";
 
 * {
+  font-size: calc(1vw + 7px);
+  font-weight: 400;
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  color: #92abcd;
+  text-shadow: 1px 1px 0 #fff;
+  &::selection {
+    color: white;
+    background: #92abcd;
+  }
+  &::-moz-selection {
+    color: white;
+    background: #92abcd;
+  }
 }

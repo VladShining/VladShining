@@ -1,6 +1,18 @@
 <div class="profil">
-    <div class="picture">
-        <img aria-placeholder="assets/image" src="https://firebasestorage.googleapis.com/v0/b/ruddy-harifetra.appspot.com/o/profil_7.png?alt=media&token=fee2d7ad-d8f3-4169-8b7b-e55bfc76ded9" alt="" />
+    <div class="picture" >
+        <img *ngIf="false" aria-placeholder="assets/image" src="https://firebasestorage.googleapis.com/v0/b/ruddy-harifetra.appspot.com/o/profil_7.png?alt=media&token=fee2d7ad-d8f3-4169-8b7b-e55bfc76ded9" alt="" onerror="this.onerror=null;this.src='/assets/logo.svg';"/>
+    </div>
+    <div class="slider">
+        <ng-image-slider #nav
+        [images]="imageObject" 
+        [infinite]="true"
+        [autoSlide]="{interval: 2, stopOnHover: true}" 
+        [imageSize]="{width: '100%', height: '80%',space: 0}"
+        [animationSpeed]="4"
+        [manageImageRatio]=true
+        [showArrow]=false
+        slideImage="1" 
+        ></ng-image-slider>
     </div>
     <p>{{data.name}}</p>
     <p>{{data.lastName}}</p>

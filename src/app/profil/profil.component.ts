@@ -7,7 +7,32 @@ import { DataService } from '../service/data.service';
 })
 export class ProfilComponent implements OnInit {
   data: any;
-
+  imageObject: Array<object> = [
+    {
+      image: 'assets/img/slider/1.jpg',
+      thumbImage: '/assets/logo.png',
+      alt: 'alt of image',
+      title: '',
+    },
+    {
+      image: 'assets/img/slider/1.jpg',
+      thumbImage: '/assets/Fichier 1.svg',
+      alt: 'alt of image',
+      title: '',
+    },
+    {
+      image: 'assets/img/slider/1.jpg',
+      thumbImage: '/assets/logo.png',
+      alt: 'alt of image',
+      title: '',
+    },
+    {
+      image: 'assets/img/slider/1.jpg',
+      thumbImage: '/assets/logo.png',
+      alt: 'alt of image',
+      title: '',
+    },
+  ];
   constructor(private profilService: DataService) {
     this.data = {
       name: '',

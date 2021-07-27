@@ -6,36 +6,15 @@ import { AppComponent } from './app.component';
 import { ServiceWorkerModule } from '@angular/service-worker';
 import { environment } from '../environments/environment';
 
-import { ViewComponent } from './view/view.component';
-import { ResumeComponent } from './resume/resume.component';
-import { SelectorComponent } from './selector/selector.component';
-import { HeadComponent } from './head/head.component';
-import { FooterComponent } from './footer/footer.component';
-import { ProfilComponent } from './profil/profil.component';
-import { EducationComponent } from './education/education.component';
-import { SkillsComponent } from './skills/skills.component';
-import { WorkComponent } from './work/work.component';
-import { HobbiesComponent } from './hobbies/hobbies.component';
 import { DataService } from './service/data.service';
 import { ForoforComponent } from './forofor/forofor.component';
+import { NgImageSliderModule } from 'ng-image-slider';
 
 @NgModule({
-  declarations: [
-    AppComponent,
-    ResumeComponent,
-    SelectorComponent,
-    ViewComponent,
-    HeadComponent,
-    FooterComponent,
-    ProfilComponent,
-    EducationComponent,
-    SkillsComponent,
-    WorkComponent,
-    HobbiesComponent,
-    ForoforComponent,
-  ],
+  declarations: [AppComponent, ForoforComponent],
   imports: [
     BrowserModule,
+    NgImageSliderModule,
     AppRoutingModule,
     ServiceWorkerModule.register('ngsw-worker.js', {
       enabled: environment.production,

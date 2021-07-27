@@ -1,8 +1,21 @@
 @import "../style/color.scss";
 .profil {
   text-align: center;
-  text-align-last: center;
   text-align: -webkit-center;
+  .slider {
+    z-index: 0;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    width: 50vw;
+    height: 150px;
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+    * {
+      border: none;
+    }
+  }
 }
 .picture {
   box-shadow: 0.2em 0.2em 7px 0.1em $dark-color;
@@ -10,12 +23,13 @@
   margin: 0.5em 0;
   height: 150px;
   width: 150px;
-  background-image: url("../../assets/logo.png");
+  // background-image: url("../../assets/logo.png");
   background-size: 150px 150px;
   img {
     // width: 150px;
-    height: 150px;
-    border: none;
+    // border-radius: 0.5em;
+    // height: 150px;
+    // border: solid 2px $light-color;
   }
 }
 p {

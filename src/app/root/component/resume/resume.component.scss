@@ -1,0 +1,21 @@
+.container {
+  display: flex;
+  flex-flow: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+  margin: 0;
+}
+.description {
+  padding: 1em;
+  border-right: solid 1px #11ece5;
+  text-align: right;
+}
+.illustration {
+  text-align: left;
+  border-left: solid 1px #babecc;
+  padding: 1em;
+  * {
+    margin-top: 0.5em;
+  }
+}

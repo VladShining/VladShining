@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #ebecf0;
+      }
+
+      .cls-2 {
+        fill: #212c3d;
+      }
+    </style>
+  </defs>
+  <g id="Groupe_36" data-name="Groupe 36" transform="translate(-7926 -2807)">
+    <rect id="Rectangle_50" data-name="Rectangle 50" class="cls-1" width="64" height="64" transform="translate(7926 2807)"/>
+    <path id="Tracé_13" data-name="Tracé 13" class="cls-2" d="M2.421,0,4.843,1.409H0Z" transform="matrix(-0.5, 0.866, -0.866, -0.5, 7961.674, 2837.959)"/>
+    <path id="Tracé_14" data-name="Tracé 14" class="cls-2" d="M2.421,0,4.843,1.409H0Z" transform="translate(7956.747 2842.153) rotate(-120)"/>
+    <path id="Polygone_7" data-name="Polygone 7" class="cls-2" d="M2.455,0,4.91,1.409H0Z" transform="translate(7955.545 2835.846)"/>
+  </g>
+</svg>

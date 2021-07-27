@@ -1,7 +1,17 @@
 @import "./color.scss";
-
+@import "./font.scss";
+@import "./size.scss";
+body,
+html {
+  background-color: blue;
+  background: url("../../assets/images/svg/Groupe\ 36.svg");
+  background-size: 13px;
+  background-repeat: repeat;
+  width: 100vw;
+  height: 100vh;
+}
 * {
-  font-family: monospace;
+  font-family: "Roboto Mono", monospace;
 }
 li {
   list-style: none;

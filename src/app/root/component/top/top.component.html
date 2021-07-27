@@ -1,0 +1,7 @@
+<div class="header">
+    <ul class="liste">
+        <li *ngFor="let item of list" [routerLink]="[item.link]" >
+            {{item.label}}
+        </li>
+    </ul>
+</div>
