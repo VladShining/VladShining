@@ -9,14 +9,6 @@ import 'firebase/storage';
   styleUrls: ['./app.component.scss'],
 })
 export class AppComponent implements OnInit {
-  title = 'portfolio';
-  image: any;
   constructor() {}
-  ngOnInit() {
-    this.image = firebase
-      .app()
-      .storage('gs://ruddy-harifetra.appspot.com')
-      .ref()
-      .child('profil_7.png');
-  }
+  ngOnInit() {}
 }

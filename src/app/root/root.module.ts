@@ -8,6 +8,8 @@ import { ResumeComponent } from './component/resume/resume.component';
 import { EducationComponent } from './component/education/education.component';
 import { SkillsComponent } from './component/skills/skills.component';
 import { WorkComponent } from './component/work/work.component';
+import { ContactComponent } from './component/contact/contact.component';
+import { AboutComponent } from './component/about/about.component';
 
 @NgModule({
   declarations: [
@@ -18,6 +20,8 @@ import { WorkComponent } from './component/work/work.component';
     ResumeComponent,
     SkillsComponent,
     WorkComponent,
+    ContactComponent,
+    AboutComponent,
   ],
   imports: [CommonModule, RootRoutingModule],
 })

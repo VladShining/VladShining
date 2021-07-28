@@ -6,11 +6,12 @@
 }
 .liste {
   display: flex;
+  flex-wrap: nowrap;
   justify-content: flex-end;
   align-content: center;
   padding: 0;
   * {
-    padding: 0.5em 1em;
+    padding: 0.5em 0.2em;
   }
   li {
     cursor: pointer;
@@ -23,4 +24,17 @@
     }
     transition: all 0.7s;
   }
+}
+#main {
+  cursor: pointer;
+  position: absolute;
+  box-shadow: inset -2px -2px 5px #fff, inset 2px 2px 5px #babecc;
+  padding: 0.1em 0.3em;
+  top: 0.4em;
+  border-radius: 5px;
+  margin: 0 5px;
+  &:hover {
+    box-shadow: -2px -2px 5px #fff, 2px 2px 5px #babecc;
+  }
+  transition: all 2s;
 }

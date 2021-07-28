@@ -8,13 +8,12 @@ import { environment } from '../environments/environment';
 
 import { DataService } from './service/data.service';
 import { ForoforComponent } from './forofor/forofor.component';
-import { NgImageSliderModule } from 'ng-image-slider';
+// import { NgImageSliderModule } from 'ng-image-slider';
 
 @NgModule({
   declarations: [AppComponent, ForoforComponent],
   imports: [
     BrowserModule,
-    NgImageSliderModule,
     AppRoutingModule,
     ServiceWorkerModule.register('ngsw-worker.js', {
       enabled: environment.production,

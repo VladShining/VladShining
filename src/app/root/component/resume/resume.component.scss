@@ -1,12 +1,31 @@
 .container {
   display: flex;
   flex-flow: row;
-  flex-wrap: wrap;
+  flex-wrap: wrap-reverse;
   justify-content: center;
   align-content: center;
   margin: 0;
 }
+.profil {
+  align-self: flex-end;
+  display: inline-flex;
+  width: calc(10vw + 30px);
+  height: calc(10vw + 30px);
+  box-shadow: -2px -2px 5px #fff, 2px 2px 5px #babecc;
+  margin-bottom: 1em;
+  img {
+    width: 100%;
+    filter: grayscale(1);
+    border-radius: 2px;
+    &:hover {
+      filter: none;
+      transition: all 0.5s;
+    }
+  }
+}
 .description {
+  display: flex;
+  flex-flow: column;
   padding: 1em;
   border-right: solid 1px #11ece5;
   text-align: right;
@@ -17,5 +36,23 @@
   padding: 1em;
   * {
     margin-top: 0.5em;
+  }
+}
+.bottom {
+  margin-top: 1em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+@media screen and (max-width: 575px) {
+  .profil {
+    align-self: center;
+    width: 120px;
+    height: 120px;
+    transition: all 2s;
+  }
+  .illustration {
+    text-align: center;
   }
 }

@@ -1,0 +1,24 @@
+.container {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+.card {
+  margin: calc(1vh + 10px - 1vw) calc(2em + 1vw);
+  * {
+    cursor: pointer;
+    width: 4vw;
+    filter: grayscale(1);
+    transition: all 1s;
+    height: 4vw;
+    &:hover {
+      filter: none;
+      //   border: solid 1px #212c3d;
+      transition: all 1s;
+      border-radius: 50%;
+      background: #dddddd;
+      box-shadow: inset 5px 5px 10px #bcbcbc, inset -5px -5px 10px #fefefe,
+        5px 5px 10px #bcbcbc, -5px -5px 10px #fefefe;
+    }
+  }
+}

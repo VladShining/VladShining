@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="403.746" height="391.027" viewBox="0 0 403.746 391.027">
+  <g id="Groupe_40" data-name="Groupe 40" transform="translate(-7414.307 -2894.485)">
+    <g id="Groupe_39" data-name="Groupe 39">
+      <g id="Groupe_38" data-name="Groupe 38">
+        <path id="Tracé_15" data-name="Tracé 15" d="M7314.08,2846.325c205.027-42.483,236.428,44.33,166.238,99.743-45.974,36.3-412.038,230.015,234.13,276.839" transform="translate(102 61)" fill="none" stroke="#707070" stroke-linecap="round" stroke-width="3"/>
+        <path id="Tracé_16" data-name="Tracé 16" d="M0,0,52,126" transform="translate(7471.5 2903.5)" fill="none" stroke="#707070" stroke-linecap="round" stroke-width="3"/>
+        <line id="Ligne_16" data-name="Ligne 16" x2="43" y2="109" transform="translate(7488.5 2907.5)" fill="none" stroke="#707070" stroke-linecap="round" stroke-width="6"/>
+      </g>
+      <g id="Groupe_37" data-name="Groupe 37" transform="translate(16 69)">
+        <line id="Ligne_17" data-name="Ligne 17" x2="30" y2="70" transform="translate(7587.5 3049.5)" fill="none" stroke="#707070" stroke-linecap="round" stroke-width="3"/>
+        <line id="Ligne_18" data-name="Ligne 18" y1="15" x2="39" transform="translate(7602.5 3069.5)" fill="none" stroke="#707070" stroke-linecap="round" stroke-width="3"/>
+        <line id="Ligne_19" data-name="Ligne 19" x2="19" y2="61" transform="translate(7628.5 3041.5)" fill="none" stroke="#707070" stroke-linecap="round" stroke-width="3"/>
+      </g>
+    </g>
+    <g id="Ellipse_5" data-name="Ellipse 5" transform="translate(7662 3093)" fill="#707070" stroke="#707070" stroke-linecap="round" stroke-width="1">
+      <circle cx="3.5" cy="3.5" r="3.5" stroke="none"/>
+      <circle cx="3.5" cy="3.5" r="3" fill="none"/>
+    </g>
+  </g>
+</svg>

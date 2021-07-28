@@ -3,7 +3,7 @@ import { Component, OnInit } from '@angular/core';
 @Component({
   selector: 'app-top',
   templateUrl: './top.component.html',
-  styleUrls: ['./top.component.scss'],
+  styleUrls: ['./top.component.scss']
 })
 export class TopComponent implements OnInit {
   list: { label: string; link?: string }[];
@@ -11,21 +11,21 @@ export class TopComponent implements OnInit {
   constructor() {
     this.list = [
       {
-        label: 'About',
-        link: '',
+        label: 'à propos|',
+        link: 'about'
       },
       {
-        label: 'Etude',
-        link: 'education',
+        label: 'mes études|',
+        link: 'education'
       },
       {
-        label: 'Competence',
-        link: 'skill',
+        label: 'compétence|',
+        link: 'skill'
       },
       {
-        label: 'Profession',
-        link: 'work',
-      },
+        label: 'carrière',
+        link: 'work'
+      }
     ];
   }
 
