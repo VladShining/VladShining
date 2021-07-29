@@ -1,6 +1,8 @@
 @import "./color.scss";
 @import "./font.scss";
 @import "./size.scss";
+@import "./input.scss";
+@import "./button.scss";
 body,
 html {
   background: url("../../assets/images/svg/Tile.svg");
@@ -14,4 +16,7 @@ html {
 }
 li {
   list-style: none;
+}
+::placeholder {
+  color: #92abcd;
 }

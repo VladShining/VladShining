@@ -1,13 +1,9 @@
 <div class="container">
-    <div class="card"><img src="../../../../assets/logo.svg" alt="phone"></div>
+    <div class="card"> <a href="https://nca-49.web.app/" ><img src="../../../../assets/logo.svg" alt="nca49" style="background-color:  #92abcd;"></a></div>
  </div>
  <div class="container">
-    <div class="card"><img src="../../../../assets/images/svg/phone-call.svg" alt="phone"></div>
-    <div class="card"><img src="../../../../assets/images/svg/gmail.svg" alt="mail"></div>
-   <div class="card"><img src="../../../../assets/images/svg/send.svg" alt="message"></div>
-
+    <div class="card" (click)="callNumber()"><img src="../../../../assets/images/svg/phone-call.svg" alt="phone"></div>
+    <div class="card" (click) = "sendMail()"><img src="../../../../assets/images/svg/gmail.svg" alt="mail"></div>
+   <div class="card" (click) = "sendMessage()" ><img src="../../../../assets/images/svg/send.svg" alt="message"></div>
  </div>
-<div class="container">
-   <div class="card"><img src="../../../../assets/images/svg/github.svg" alt="github"></div>
-   <div class="card"><img src="../../../../assets/images/svg/gmail.svg" alt="mail"></div>
-</div> 
+

@@ -5,12 +5,13 @@
 }
 .card {
   margin: calc(1vh + 10px - 1vw) calc(2em + 1vw);
-  * {
+  img,
+  * img {
     cursor: pointer;
-    width: 4vw;
+    width: calc(2vw + 2vh);
+    height: calc(2vw + 2vh);
     filter: grayscale(1);
     transition: all 1s;
-    height: 4vw;
     &:hover {
       filter: none;
       //   border: solid 1px #212c3d;

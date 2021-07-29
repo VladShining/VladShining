@@ -1,4 +1,16 @@
-%button {
+button {
   border: none;
+  padding: 7px;
+  background-color: $color-bg;
   outline: none;
+  margin: 0.5em 1em;
+  cursor: pointer;
+  border-radius: 5px;
+  background: linear-gradient(145deg, #fbfdff, #d4d4d8);
+  box-shadow: 5px 5px 11px #c8c9cc, -5px -5px 11px #ffffff;
+  &:hover {
+    border-radius: 5px;
+    background: linear-gradient(145deg, #d4d4d8, #fbfdff);
+    box-shadow: 5px 5px 11px #c8c9cc, -5px -5px 11px #ffffff;
+  }
 }

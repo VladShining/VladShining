@@ -10,6 +10,7 @@ import { SkillsComponent } from './component/skills/skills.component';
 import { WorkComponent } from './component/work/work.component';
 import { ContactComponent } from './component/contact/contact.component';
 import { AboutComponent } from './component/about/about.component';
+import { MatDialogModule } from '@angular/material/dialog';
 
 @NgModule({
   declarations: [
@@ -21,8 +22,8 @@ import { AboutComponent } from './component/about/about.component';
     SkillsComponent,
     WorkComponent,
     ContactComponent,
-    AboutComponent,
+    AboutComponent
   ],
-  imports: [CommonModule, RootRoutingModule],
+  imports: [CommonModule, RootRoutingModule, MatDialogModule]
 })
 export class RootModule {}
