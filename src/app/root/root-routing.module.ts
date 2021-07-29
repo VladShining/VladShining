@@ -13,9 +13,8 @@ const routes: Routes = [
     children: [
       { path: '', component: ResumeComponent },
       { path: 'about', component: AboutComponent },
-      { path: 'education', component: EducationComponent },
-      { path: 'skill', component: SkillsComponent },
-      { path: 'work', component: WorkComponent }
+      { path: 'blog', component: SkillsComponent },
+      { path: 'contact', component: WorkComponent }
     ]
   }
 ];

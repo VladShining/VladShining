@@ -6,10 +6,14 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./about.component.scss']
 })
 export class AboutComponent implements OnInit {
-
-  constructor() { }
-
-  ngOnInit(): void {
+  old: number;
+  constructor() {
+    this.old = 0;
   }
 
+  ngOnInit(): void {
+    let date: Date = new Date();
+    const old = date.getFullYear() - 1995;
+    this.old = old;
+  }
 }

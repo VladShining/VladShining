@@ -15,16 +15,12 @@ export class TopComponent implements OnInit {
         link: 'about'
       },
       {
-        label: 'mes études|',
-        link: 'education'
+        label: 'biblio|',
+        link: 'blog'
       },
       {
-        label: 'compétence|',
-        link: 'skill'
-      },
-      {
-        label: 'carrière',
-        link: 'work'
+        label: 'contact',
+        link: 'contact'
       }
     ];
   }

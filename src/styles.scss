@@ -37,6 +37,7 @@ $portfolio-theme: mat.define-light-theme(
 @import "./app/style/index.scss";
 
 * {
+  scrollbar-width: none;
   font-size: calc(1vw + 7px);
   font-weight: 400;
   box-sizing: border-box;
@@ -56,7 +57,29 @@ $portfolio-theme: mat.define-light-theme(
 ::-webkit-scrollbar {
   display: none;
 }
-
+h1,
+h1 * {
+  font-size: calc(1vw + 15px);
+  margin-bottom: 1.5%;
+  margin-top: 1%;
+  font-weight: bold;
+}
+h2,
+h2 * {
+  margin-top: 1%;
+  font-size: calc(1vw + 10px);
+  text-decoration: underline;
+  margin-bottom: 1.1%;
+}
+a {
+  text-decoration: none;
+  &:hover {
+    text-decoration: underline;
+  }
+}
+.mat-dialog-container {
+  background: #ebecf0;
+}
 // html,
 // body {
 //   height: 100%;
